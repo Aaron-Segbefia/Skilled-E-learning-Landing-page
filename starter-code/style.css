@@ -1,0 +1,619 @@
+.skilled{ 
+
+    position: absolute;
+    width: 111.17px;
+    height: 27.68px;
+    left: 165.79px;
+    top: 38.75px;
+
+
+}
+
+.started{ 
+
+    height: 56px;
+    width: 167px;
+    position: absolute;
+    left: 1108px;
+    top: 24px;
+    background: #13183F;
+    border-radius: 28px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    border: none;
+    z-index: 5;
+
+
+}
+
+.started span{ 
+    height: 28px;
+    width: 104px;
+    position: absolute;
+    top: 14px;
+    left: 19.16%;
+    right: 18.56%;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+
+}
+
+.maximum-skill{ 
+    position: absolute;
+    width: 457px;
+    height: 359px;
+    left: 165px;
+    top: 252px;
+}
+
+.maximum-skill .modern{ 
+    position: absolute;
+    height: 84px;
+    left: 0%;
+    right: 2.63%;
+    top: calc(50% - 84px/2 + 34.5px);
+    width: 445px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #83869A;
+    text-align: left;
+
+}
+
+.maximum-skill button{ 
+    position: absolute;
+    left: 0%;
+    right: 63.46%;
+    top: 82.45%;
+    bottom: 0%;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 31.5px;
+    height: 63px;
+    width: 167px;
+    border-radius: 31.5px;
+    border: none;
+
+}
+
+.maximum-skill button span{ 
+    height: 28px;
+    width: 104px;
+    left: 32px;
+    top: 19px;
+    position: absolute;
+    height: 28px;
+    right: 18.56%;
+    top: calc(50% - 28px/2 + 1.5px);
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+
+}
+
+#max{ 
+    position: absolute;
+    height: 143px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 143px/2 - 108px);
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 71px;
+    color: #13183F;
+}
+
+
+
+.courses-div{ 
+
+    position: absolute;
+    width: 1440px;
+    height: 888px;
+    left: 0px;
+    top: 837px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+
+}
+
+
+.courses{ 
+
+    position: absolute;
+    width: 1110px;
+    height: 748px;
+    left: 165px;
+    top: 0px;
+    bottom: 140px;
+
+}
+
+.popular{ 
+
+    position: absolute;
+    width: 350px;
+    height: 322px;
+    left: 165px;
+    top: 24px;
+background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+border-radius: 15px;
+bottom: 542px;
+
+}
+
+.animation{ 
+
+    position: absolute;
+    width: 350px;
+    height: 346px;
+    left: 545px;
+top: 0px;
+bottom: 542px;
+
+}
+
+.anim-div, .design-div, .photo-div, .crypto-div, .business-div{ 
+position: absolute;    
+height: 322px;
+top: 24px;
+background: #FFFFFF;
+box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+border-radius: 15px;
+width: 350px;
+}
+
+.design{ 
+
+    position: absolute;
+    width: 350px;
+    height: 346px;
+    left: 925px;
+top: 0px;
+bottom: 542px;
+
+}
+
+.photo{ 
+
+    position: absolute;
+width: 350px;
+height: 346px;
+left: 165px;
+top: 402px;
+
+}
+
+
+.crypto{ 
+
+    position: absolute;
+width: 350px;
+height: 346px;
+left: 545px;
+top: 402px;
+}
+
+.business{ 
+
+    position: absolute;
+width: 350px;
+height: 346px;
+left: 925px;
+top: 402px;
+}
+
+
+#popular-text{ 
+    position: absolute;
+height: 120px;
+left: 9.14%;
+right: 9.14%;
+top: calc(50% - 120px/2 - 37px);
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 40px;
+color: #FFFFFF;
+
+}
+
+.heading{ 
+position: absolute;
+height: 30px;
+left: 32px;
+right: 57.69%;
+top: calc(50% - 30px/2 - 94px);
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 30px;
+color: #13183F;
+
+}
+
+.desc{ 
+    position: absolute;
+    height: 112px;
+    width: 286px;
+    
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #83869A;
+    left: 32px;
+    right: 32px;
+    top: 118px;
+    bottom: 92px;
+}
+
+.button-text{ 
+
+    position: absolute;
+height: 28px;
+left: 32px;
+right: 63.64%;
+top: calc(50% - 28px/2 + 95px);
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 28px;
+color: #F74780;
+text-decoration: none;
+width: 104px;
+height: 28px;
+
+}
+
+#anim-icon, #design-icon, #photo-icon, #crypto-icon, #business-icon{ 
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 32px;
+    z-index: 5;
+
+}
+
+footer{ 
+    position: absolute;
+    width: 1440px;
+    height: 120px;
+    left: 0px;
+    top: 1725px;
+    background: #13183F;
+}
+
+#footer-button{ 
+    position: absolute;
+    width: 167px;
+    height: 56px;
+    left: 1108px;
+    top: 32px;
+    background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+    border-radius: 28px;
+    border: none;
+
+}
+#footer-img{ 
+    position: absolute;
+    width: 111.17px;
+    height: 27.68px;
+    left: 165.79px;
+    top: 46.75px;
+}
+
+#footer-text{ 
+    position: absolute;
+    height: 28px;
+    left: 19.16%;
+    right: 18.56%;
+    top: calc(50% - 28px/2);
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+
+}
+
+#img-hero{ 
+    position: absolute;
+width: calc(991.63px - 335.63px);
+height: calc(936.92px - 146.13px);
+left: 784px;
+background-image: url('assets/image-hero-desktop.png');
+background-size: cover;
+overflow: hidden;
+top: 0%;
+}
+
+/*Desktop Active*/
+
+button:hover, a:hover, .started{
+    cursor: pointer;
+     
+
+}
+
+a:hover{ 
+    color: #FFA7C3;
+}
+
+#max-button:hover{ 
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+    linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+
+}
+
+#footer-button:hover{ 
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+    linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+
+}
+
+.started:hover{ 
+    background: #666CA3;
+
+}
+button:active{ 
+    background-color: #FFFFFF;
+}
+
+
+/*Tablet screen*/
+@media screen and (max-width: 1200px) and (min-width: 500px){
+ 
+    .skilled{ 
+        position: absolute;
+        height: 35px;
+        right: 87.08%;
+        left: 39px;
+        width: 89px;
+        height: 35px;
+        top: 31px;
+
+    }
+
+    .started{ 
+        position: absolute;
+        left: 588px;
+        height: 48px;
+        width: 140px;
+
+
+    }
+
+    .started span{ 
+        height: 28px;
+        width: 92px;
+        left: 24px;
+        top: 9px;
+        font-family: Plus Jakarta Sans;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: left;
+
+
+    }
+
+    .maximum-skill{ 
+        position: absolute;
+        width: 398px;
+        height: 284px;
+        left: 39px;
+        top: 171px;
+
+        
+
+    }
+
+    #max{ 
+    width: 326px;    
+    height: 101px;
+    position: absolute;
+
+    left: 0%;
+    right: 18.09%;
+    top: calc(50% - 101px/2 - 91.5px);
+    
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: left;
+
+    }
+
+    .modern{ 
+        width: 398px;
+        height: 78px;
+        font-family: Plus Jakarta Sans;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0px;
+        text-align: left;
+        position: relative;
+        height: 78px;
+        left: 0px;
+        
+        bottom: 90px;
+        
+
+
+
+    }
+
+    #max-button{ 
+        position: relative;
+        right: 58.04%;
+        height: 56px;
+        width: 167px;
+        left: 0px;
+        top: 228px
+
+
+
+    }
+
+    #img-hero{ 
+        width: calc(640.71px - 297.71px);
+        height: calc(640px - 92.13px);
+        position: absolute;
+        left: 425px;
+        background-image: url('assets/image-hero-tablet.webp');
+    }
+
+    .popular{ 
+        position: absolute;
+        width: 339px;
+        height: 259px;
+        left: 39px;
+        top: 0px;
+    }
+
+    #popular-text{ 
+        height: 64px;
+        width: 286px;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 32px;
+
+
+    }
+
+
+    .anim-div, .design-div, .photo-div, .crypto-div, .business-div{ 
+        height: 259px;
+        width: 340px;
+    
+
+     }
+
+    .animation, .design, .photo, .crypto, .business{ 
+        width: 340px;
+        height: 283px;
+    }
+
+    .heading{ 
+        height: 25px;
+        width: 101px;
+        position: absolute;
+        bottom: 178px;
+        left: 32px;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 25px;
+
+
+    }
+    .desc{ 
+        height: 78px;
+        width: 286px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        position: absolute;
+        top: 97px;
+    }
+
+    #anim-icon, #design-icon, #photo-icon, #crypto-icon, #business-icon{ 
+        position: absolute;
+        width: 56px;
+        height: 56px;
+        left: 32px;
+        top: 0px;
+
+    }
+
+    .animation{ 
+        position: absolute;
+        top: 0%;
+        left: 388px;
+    }
+    .design{ 
+        position: absolute;
+        top: 315px;
+        left: 39px;
+    }
+    
+    .photo{ 
+        position: absolute;
+        left: 389px;
+        top: 315px;
+    }
+
+    .crypto{ 
+        position: absolute;
+        top: 630px;
+        left: 39px;
+    }
+    .business{ 
+        position: absolute;
+        top: 630px;
+        left: 389px;
+    }
+
+    .courses-div{ 
+        position: absolute;
+        width: 768px;
+        height: 999px;
+        left: 0px;
+        top: 641px;
+        background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+    }
+
+    footer{ 
+        position: absolute;
+        width: 768px;
+        height: 120px;
+        left: 0px;
+        top: 1640px;
+    }
+
+    #footer-img{ 
+        position: absolute;
+        width: 89px;
+        height: 35px;
+        left: 40px;
+        top: 43px;
+
+    }
+    #footer-button{ 
+        position: absolute;
+        width: 140px;
+        height: 48px;
+        left: 589px;
+        top: 36px;
+    }
+    #footer-text{ 
+        height: 28px;
+        width: 92px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 28px;
+    }
+}
