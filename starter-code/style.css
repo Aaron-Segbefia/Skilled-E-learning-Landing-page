@@ -381,7 +381,7 @@ button:active{
 
 
 /*Tablet screen*/
-@media screen and (max-width: 1200px) and (min-width: 500px){
+@media only screen and (max-width: 1200px) and (min-width: 812px){
  
     .skilled{ 
         position: absolute;
@@ -615,5 +615,225 @@ button:active{
         font-weight: 700;
         font-size: 16px;
         line-height: 28px;
+    }
+}
+
+
+
+/*mobile design*/
+
+@media only screen and (max-width: 812px) and (min-width: 320px) {
+    .skilled{ 
+        height: 35px;
+        width: 89px;
+        position: absolute;
+        top: 22px;
+        left: 16px;
+
+        
+    }
+
+    .started{ 
+        height: 48px;
+        width: 140px;
+        position: absolute;
+        left: 219px;
+        top: 16px;
+
+        
+
+    }
+
+
+    .started span{ 
+        position: absolute;
+        height: 28px;
+        left: 24px;
+        top: calc(50% - 28px/2 - 1px);
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 28px;
+        width: 92px;
+        height: 28px;
+    }
+
+
+   .maximum-skill{ 
+        position: absolute;
+        left: 16px;
+        top: 102px;
+        height: calc(101px + 26px + 78px + 24px + 56px);
+
+    }
+
+    #max{ 
+        position: absolute;
+        width: 343px;
+        height: 101px;
+        left: 0x;
+        top: 0px;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 50px;
+    }  
+    
+    .modern{ 
+        position: absolute;
+        width: 343px;
+        height: 78px;
+        left: 0px;
+        top: calc(24px + 101px);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    #max-button{ 
+        position: absolute;
+        width: 167px;
+        height: 56px;
+        left: 0px;
+        /*top: calc(128px + 101px);*/
+        bottom: 0%;
+
+    }
+
+    #img-hero{ 
+        position: absolute;
+        width: 327px;
+        height: 301px;
+        left: 0px;
+        top: 433px;
+        background-image: url('assets/image-hero-mobile.webp');
+    }
+
+    .courses-div{ 
+        position: absolute;
+        width: 375px;
+        height: 1695px;
+        left: 0px;
+        top: 800px;
+        background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+    }
+
+    .popular{ 
+        position: absolute;
+        width: 343px;
+        height: 120px;
+        left: 16px;
+        top: 0px;
+    }
+    #popular-text{ 
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 32px;
+        height: 64px;
+        width: 286px;
+        left: 28px;
+        top: 24px;
+        
+    }
+
+    .animation, .photo, .crypto, .design, .business{ 
+        position: absolute;
+        width: 343px;
+        height: 283px;
+        left: 16px;
+    }
+
+    .animation{ 
+        position: absolute;
+        top: 136px;
+        
+    }
+    .design{ 
+        position: absolute;
+        top: 435px;
+    }
+
+    .photo{ 
+        position: absolute;
+        top: 734px;
+    }
+
+    .crypto{ 
+        position: absolute;
+        top: 1033px;
+    }
+
+    .business{
+        position: absolute;
+        top: 1332px;
+    }
+
+    .anim-div, .design-div, .photo-div, .crypto-div, .business-div{ 
+        height: 259px;
+        width: 343px;
+        
+        
+    }
+
+    .desc{ 
+        height: 78px;
+        width: 286px;
+        position: absolute;
+        height: 78px;
+        left: 8.16%;
+        right: 8.45%;
+        top: calc(50% - 78px/2 + 18.5px);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        
+    }
+
+    footer{ 
+        position: absolute;
+        height: 120px;
+        left: 0px;
+        top: 2495px;
+        width: 375px;
+
+        
+    }
+
+    #footer-img{ 
+        position: absolute;
+        height: 35px;
+        width: 89px;
+        left: 16px;
+        
+    }
+
+    #footer-button{ 
+        position: absolute;
+        width: 140px;
+        height: 48px;
+        left: 219px;
+        top: 36px;
+    }
+    
+    #footer-text{ 
+        height: 28px;
+        width: 92px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 28px;
+        
+    }
+
+    .heading{ 
+        height: 25px;
+        width: 87px;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 25px;
+        
     }
 }
