@@ -1,4 +1,4 @@
-.skilled{ 
+/*.skilled{ 
 
     position: absolute;
     width: 111.17px;
@@ -7,9 +7,19 @@
     top: 38.75px;
 
 
+}*/
+
+.skilled {
+    position: absolute;
+    width: 111.17px;
+    height: 27.68px;
+    left: 11.51%;
+    top: 38.75px;
 }
 
-.started{ 
+
+
+/*.started{ 
 
     height: 56px;
     width: 167px;
@@ -28,6 +38,24 @@
     z-index: 5;
 
 
+}*/
+
+.started {
+    height: 56px;
+    width: 167px;
+    position: absolute;
+    left: 76.9%;
+    top: 24px;
+    background: #13183F;
+    border-radius: 28px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    border: none;
+    z-index: 5;
 }
 
 .started span{ 
@@ -46,13 +74,24 @@
 
 }
 
-.maximum-skill{ 
+/*.maximum-skill{ 
     position: absolute;
     width: 457px;
     height: 359px;
     left: 165px;
     top: 252px;
+}*/
+
+.maximum-skill {
+    position: absolute;
+    width: 457px;
+    height: 359px;
+    left: 11.51%;
+    top: 252px;
 }
+
+
+
 
 .maximum-skill .modern{ 
     position: absolute;
@@ -120,7 +159,7 @@
 
 
 
-.courses-div{ 
+/*.courses-div{ 
 
     position: absolute;
     width: 1440px;
@@ -129,6 +168,16 @@
     top: 837px;
     background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
 
+}*/
+
+
+.courses-div {
+    position: absolute;
+    width: 100%;
+    height: 888px;
+    left: 0px;
+    top: 837px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
 }
 
 
@@ -143,31 +192,52 @@
 
 }
 
-.popular{ 
+/*.popular{ 
 
     position: absolute;
     width: 350px;
     height: 322px;
     left: 165px;
     top: 24px;
-background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
-border-radius: 15px;
-bottom: 542px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 15px;
+    bottom: 542px;
 
+}*/
+
+.popular {
+    position: absolute;
+    width: 24.3%;
+    height: 31.45%;
+    left: 11.46%;
+    top: 24px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 15px;
+    bottom: 542px;
 }
 
-.animation{ 
+
+/*.animation{ 
 
     position: absolute;
     width: 350px;
     height: 346px;
     left: 545px;
-top: 0px;
-bottom: 542px;
+    top: 0px;
+    bottom: 542px;
 
+}*/
+
+.animation {
+    position: absolute;
+    width: 24.30%;
+    height: 33.8%;
+    left: 37.84%;
+    top: 0px;
+    bottom: 542px;
 }
 
-.anim-div, .design-div, .photo-div, .crypto-div, .business-div{ 
+/*.anim-div, .design-div, .photo-div, .crypto-div, .business-div{ 
 position: absolute;    
 height: 322px;
 top: 24px;
@@ -175,9 +245,19 @@ background: #FFFFFF;
 box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
 border-radius: 15px;
 width: 350px;
+}*/
+
+.anim-div, .design-div, .photo-div, .crypto-div, .business-div {
+    position: absolute;
+    height: 93.1%;
+    top: 24px;
+    background: #FFFFFF;
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    border-radius: 15px;
+    width: 100%;
 }
 
-.design{ 
+/*.design{ 
 
     position: absolute;
     width: 350px;
@@ -186,9 +266,19 @@ width: 350px;
 top: 0px;
 bottom: 542px;
 
+}*/
+
+.design {
+    position: absolute;
+    width: 24.30%;
+    height: 33.8%;
+    left: 64.24%;
+    top: 0px;
+    bottom: 542px;
 }
 
-.photo{ 
+
+/*.photo{ 
 
     position: absolute;
 width: 350px;
@@ -196,25 +286,52 @@ height: 346px;
 left: 165px;
 top: 402px;
 
+}*/
+
+
+.photo {
+    position: absolute;
+    width: 24.30%;
+    height: 33.8%;
+    left: 11.46%;
+    top: 402px;
 }
 
 
-.crypto{ 
+/*.crypto{ 
 
     position: absolute;
 width: 350px;
 height: 346px;
 left: 545px;
 top: 402px;
+}*/
+
+
+.crypto {
+    position: absolute;
+    width: 24.30%;
+    height: 33.8%;
+    left: 37.84%;
+    top: 402px;
 }
 
-.business{ 
+/*.business{ 
 
     position: absolute;
 width: 350px;
 height: 346px;
 left: 925px;
 top: 402px;
+}*/
+
+
+.business {
+    position: absolute;
+    width: 24.30%;
+    height: 33.8%;
+    left: 64.24%;
+    top: 402px;
 }
 
 
@@ -248,7 +365,7 @@ color: #13183F;
 
 }
 
-.desc{ 
+/*.desc{ 
     position: absolute;
     height: 112px;
     width: 286px;
@@ -263,9 +380,28 @@ color: #13183F;
     right: 32px;
     top: 118px;
     bottom: 92px;
+}*/
+
+.desc {
+    position: absolute;
+    height: 32.37%;
+    width: 81.71%;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 27px;
+    color: #83869A;
+    left: 32px;
+    right: 32px;
+    top: 34.10%;
+    bottom: 92px;
 }
 
-.button-text{ 
+
+
+
+/*.button-text{ 
 
     position: absolute;
 height: 28px;
@@ -282,7 +418,28 @@ text-decoration: none;
 width: 104px;
 height: 28px;
 
+}*/
+
+.button-text {
+    position: absolute;
+    height: 28px;
+    left: 32px;
+    right: 63.64%;
+    top: 85.43%;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #F74780;
+    text-decoration: none;
+    width: 104px;
+    height: 28px;
 }
+
+
+
+
 
 #anim-icon, #design-icon, #photo-icon, #crypto-icon, #business-icon{ 
     position: absolute;
@@ -293,16 +450,25 @@ height: 28px;
 
 }
 
-footer{ 
+/*footer{ 
     position: absolute;
     width: 1440px;
     height: 120px;
     left: 0px;
     top: 1725px;
     background: #13183F;
+}*/
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    left: 0px;
+    top: 1725px;
+    background: #13183F;
 }
 
-#footer-button{ 
+/*#footer-button{ 
     position: absolute;
     width: 167px;
     height: 56px;
@@ -312,14 +478,37 @@ footer{
     border-radius: 28px;
     border: none;
 
+}*/
+
+#footer-button {
+    position: absolute;
+    width: 167px;
+    height: 56px;
+    left: 76.9%;
+    top: 32px;
+    background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+    border-radius: 28px;
+    border: none;
 }
-#footer-img{ 
+
+
+/*#footer-img{ 
     position: absolute;
     width: 111.17px;
     height: 27.68px;
     left: 165.79px;
     top: 46.75px;
+}*/
+
+
+#footer-img {
+    position: absolute;
+    width: 111.17px;
+    height: 27.68px;
+    left: 11.51%;
+    top: 46.75px;
 }
+
 
 #footer-text{ 
     position: absolute;
@@ -336,7 +525,7 @@ footer{
 
 }
 
-#img-hero{ 
+/*#img-hero{ 
     position: absolute;
 width: calc(991.63px - 335.63px);
 height: calc(936.92px - 146.13px);
@@ -345,7 +534,20 @@ background-image: url('assets/image-hero-desktop.png');
 background-size: cover;
 overflow: hidden;
 top: 0%;
+}*/
+
+#img-hero {
+    position: absolute;
+    width: 45.55%;
+    height: calc(936.92px - 146.13px);
+    left: 54.44%;
+    background-image: url('assets/image-hero-desktop.png');
+    background-size: cover;
+    overflow: hidden;
+    top: 0%;
 }
+
+
 
 /*Desktop Active*/
 
