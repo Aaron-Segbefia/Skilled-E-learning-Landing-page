@@ -1,3 +1,7 @@
+body{ 
+    margin: 0%;
+} 
+
 /*.skilled{ 
 
     position: absolute;
@@ -44,7 +48,8 @@
     height: 56px;
     width: 167px;
     position: absolute;
-    left: 76.9%;
+    /*left: 76.9%;*/
+    right: 11.46%;
     top: 24px;
     background: #13183F;
     border-radius: 28px;
@@ -85,6 +90,7 @@
 .maximum-skill {
     position: absolute;
     width: 457px;
+    /*width: 31.74%;*/
     height: 359px;
     left: 11.51%;
     top: 252px;
@@ -484,7 +490,8 @@ footer {
     position: absolute;
     width: 167px;
     height: 56px;
-    left: 76.9%;
+    /*left: 76.9%;*/
+    right: 11.46%;
     top: 32px;
     background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
     border-radius: 28px;
@@ -598,7 +605,7 @@ button:active{
 
     .started{ 
         position: absolute;
-        left: 588px;
+        /*left: 588px;*/
         height: 48px;
         width: 140px;
 
@@ -808,7 +815,7 @@ button:active{
         position: absolute;
         width: 140px;
         height: 48px;
-        left: 589px;
+        /*left: 589px;*/
         top: 36px;
     }
     #footer-text{ 
@@ -839,7 +846,7 @@ button:active{
         height: 48px;
         width: 140px;
         position: absolute;
-        left: 219px;
+       /* left: 219px;*/
         top: 16px;
 
         
@@ -865,7 +872,8 @@ button:active{
         left: 16px;
         top: 102px;
         height: calc(101px + 26px + 78px + 24px + 56px);
-        width: 100%;
+        /*width: 100%;*/
+        width: 343px;
 
     }
 
@@ -1016,7 +1024,7 @@ button:active{
         position: absolute;
         width: 140px;
         height: 48px;
-        left: 219px;
+        /*left: 219px;*/
         top: 36px;
     }
     
