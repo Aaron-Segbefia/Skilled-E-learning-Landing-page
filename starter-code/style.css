@@ -1,6 +1,8 @@
+
+
 html, body{ 
     margin: 0%;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 } 
 
 /*.skilled{ 
@@ -95,6 +97,7 @@ html, body{
     height: 359px;
     left: 11.51%;
     top: 252px;
+    margin: 0%;
 }
 
 
@@ -185,6 +188,7 @@ html, body{
     left: 0px;
     top: 837px;
     background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+    margin: 0%;
 }
 
 
@@ -472,6 +476,7 @@ footer {
     height: 120px;
     left: 0px;
     top: 1725px;
+    margin: 0%;
     background: #13183F;
 }
 
