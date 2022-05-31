@@ -812,7 +812,7 @@ button:active{
 
     .courses-div{ 
         position: absolute;
-        width: 768px;
+        /*width: 768px;*/
         height: 999px;
         left: 0px;
         top: 641px;
