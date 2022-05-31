@@ -695,7 +695,8 @@ button:active{
     }
 
     #img-hero{ 
-        width: calc(640.71px - 297.71px);
+       /* width: calc(640.71px - 297.71px);*/
+        width: 44.66%;
         height: calc(640px - 92.13px);
         position: absolute;
         left: 425px;
@@ -723,15 +724,20 @@ button:active{
 
     .anim-div, .design-div, .photo-div, .crypto-div, .business-div{ 
         height: 259px;
-        width: 340px;
+        width: 100%;
     
 
      }
 
-    .animation, .design, .photo, .crypto, .business{ 
+    /*.animation, .design, .photo, .crypto, .business{ 
         width: 340px;
         height: 283px;
+    }*/
+    .animation, .design, .photo, .crypto, .business {
+        width: 44.27%;
+        height: 283px;
     }
+    
 
     .heading{ 
         height: 25px;
@@ -745,7 +751,7 @@ button:active{
 
 
     }
-    .desc{ 
+    /*.desc{ 
         height: 78px;
         width: 286px;
         font-weight: 500;
@@ -753,7 +759,17 @@ button:active{
         line-height: 26px;
         position: absolute;
         top: 97px;
+    }*/
+    .desc {
+        height: 78px;
+        width: 84.12%;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        position: absolute;
+        top: 97px;
     }
+
 
     #anim-icon, #design-icon, #photo-icon, #crypto-icon, #business-icon{ 
         position: absolute;
@@ -767,29 +783,31 @@ button:active{
     .animation{ 
         position: absolute;
         top: 0%;
-        left: 388px;
+        /*left: 388px;*/
+        left: 50.65%;
     }
     .design{ 
         position: absolute;
         top: 315px;
-        left: 39px;
+        /*left: 39px;*/
+        left: 5.08%;
     }
     
     .photo{ 
         position: absolute;
-        left: 389px;
+        left: 50.65%;
         top: 315px;
     }
 
     .crypto{ 
         position: absolute;
         top: 630px;
-        left: 39px;
+        left: 5.08%;
     }
     .business{ 
         position: absolute;
         top: 630px;
-        left: 389px;
+        left: 50.65%;
     }
 
     .courses-div{ 
@@ -803,7 +821,8 @@ button:active{
 
     footer{ 
         position: absolute;
-        width: 768px;
+       /* width: 768px;*/
+       width: 100%;
         height: 120px;
         left: 0px;
         top: 1640px;
