@@ -599,6 +599,7 @@ button:active{
 @media only screen and (max-width: 1020px) and (min-width: 700px){
  
     .skilled{ 
+        
         position: absolute;
         height: 35px;
         right: 87.08%;
@@ -873,6 +874,7 @@ button:active{
         position: absolute;
        /* left: 219px;*/
         top: 16px;
+        right: 16px;
 
         
 
@@ -1120,9 +1122,10 @@ button:active{
 
 
     #footer-img{ 
+      
         position: absolute;
         height: 35px;
-        width: 89px;
+        /*width: 89px;*/
         left: 16px;
         
     }
@@ -1133,6 +1136,7 @@ button:active{
         height: 48px;
         /*left: 219px;*/
         top: 36px;
+        right: 16px;
     }
     
     #footer-text{ 
